@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.list-item {
+  border: 2px solid #b5b7c4;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.star-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.heading-date-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

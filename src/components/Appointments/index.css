@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d7, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.addbtn {
+  background-color: #8b5cf6;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.appointment-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+.starred-button {
+  height: 30px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.inputelement {
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.dateelement {
+  height: 30px;
+  width: 100%;
+}
+*:focus {
+  outline: none;
+}
+.unordered-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-container {
+    width: 450px;
+  }
+  .appointments-container {
+    background-color: #ffffff;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .top-container {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .appointments-image {
+    display: none;
+  }
+  .horizontal-line {
+    width: 100%;
+  }
+  .bottom-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .appointments-container {
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .top-container {
+    width: 80%;
+    margin-right: 50px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .form-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+  }
+  .horizontal-line {
+    width: 100%;
+  }
+  .bottom-container {
+    width: 100%;
+  }
+}
